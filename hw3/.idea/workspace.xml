@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c1ecf2b-7184-475a-a0c5-0c9175b38cb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/model/model.java" beforeDir="false" />
-    </list>
+    <list default="true" id="2c1ecf2b-7184-475a-a0c5-0c9175b38cb6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +27,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/acer/IdeaProjects/AppDesignPatterns/hw3"
+    "last_opened_file_path": "C:/Users/acer/IdeaProjects/AppDesignPatterns/hw1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

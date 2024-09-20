@@ -17,8 +17,12 @@ public class Book {
         return title;
     }
 
-    public String getIsbn() {
+    public String getISBN() {
         return ISBN;
+    }
+
+    public int getCopies() {
+        return copies;
     }
 
     public void addCopies(int copies) {
