@@ -1,0 +1,5 @@
+Header: Header
+Content: Content.
+Section: Section 1
+Details of section.
+Footer: Footer
