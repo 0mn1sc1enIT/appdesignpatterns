@@ -14,7 +14,6 @@ class Main {
         public Trader(String name) {
             this.name = name;
         }
-
         @Override
         public void Update(String stockSymbol, double price) {
             System.out.println(STR."\{name} получил уведомление: \{stockSymbol} -> \{price}");
@@ -29,7 +28,6 @@ class Main {
             this.name = name;
             this.threshold = threshold;
         }
-
         @Override
         public void Update(String stockSymbol, double price) {
             if (price > threshold) {
@@ -57,14 +55,12 @@ class Main {
                 observers.get(stockSymbol).add(observer);
             }
         }
-
         @Override
         public void RemoveObserver(String stockSymbol, IObserver observer) {
             if (observers.containsKey(stockSymbol)) {
                 observers.get(stockSymbol).remove(observer);
             }
         }
-
         @Override
         public void NotifyObservers(String stockSymbol) {
             if (observers.containsKey(stockSymbol)) {
@@ -73,7 +69,6 @@ class Main {
                 }
             }
         }
-
         public void SetStockPrice(String stockSymbol, double price) {
             stocks.put(stockSymbol, price);
             System.out.println(STR."Цена обновлена для акции: \{stockSymbol} -> \{price}");
@@ -87,12 +82,10 @@ class Main {
         Trader trader2 = new Trader("Трейдер 2");
         TradingBot bot1 = new TradingBot("Бот трейдер", 100.0);
 
-        // Регистрация наблюдателей
         stockExchange.RegisterObserver("AAPL", trader1);
         stockExchange.RegisterObserver("AAPL", bot1);
         stockExchange.RegisterObserver("GOOG", trader2);
 
-        // Уведомление наблюдателей об изменении цен
         stockExchange.SetStockPrice("AAPL", 105.0);
         stockExchange.RemoveObserver("AAPL", trader1);
         stockExchange.SetStockPrice("GOOG", 950.0);
