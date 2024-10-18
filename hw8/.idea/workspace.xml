@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4366e2a7-b232-45f5-b7e1-c6df9f14e07f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/.idea/hw3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/.idea/hw3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labs/lab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../labs/lab7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labs/lab7/lab7.2/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../labs/lab7/lab7.2/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice1/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2nc5ZCxXkVAXUhKJpFEwOdpUnXX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/acer/IdeaProjects/AppDesignPatterns/hw8"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4366e2a7-b232-45f5-b7e1-c6df9f14e07f" name="Changes" comment="" />
+      <created>1729259576679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729259576679</updated>
+    </task>
+    <servers />
+  </component>
+</project>
