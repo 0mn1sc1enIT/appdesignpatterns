@@ -1,0 +1,42 @@
+@startuml
+
+class Book {
+    - title: String
+    - author: String
+    - isbn: String
+    - isAvailable: boolean
+    + markAsLoaned(): void
+    + markAsAvailable(): void
+}
+
+class Reader {
+    - id: int
+    - name: String
+    - email: String
+    + borrowBook(book: Book): void
+    + returnBook(book: Book): void
+}
+
+class Librarian {
+    - id: int
+    - name: String
+    - position: String
+    + addBook(book: Book): void
+    + removeBook(book: Book): void
+}
+
+class Loan {
+    - book: Book
+    - reader: Reader
+    - loanDate: Date
+    - returnDate: Date
+    + issueLoan(): void
+    + completeLoan(): void
+}
+
+Reader "1" -- "*" Loan
+Loan "1" -- "1" Book
+Librarian "1" -- "*" Book
+Librarian "1" -- "*" Reader
+
+@enduml

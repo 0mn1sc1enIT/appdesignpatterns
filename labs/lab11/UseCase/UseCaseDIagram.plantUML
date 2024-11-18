@@ -1,0 +1,17 @@
+@startuml
+actor Гость as Guest
+actor Администратор as Admin
+
+usecase "Просмотр доступных номеров" as ViewRooms
+usecase "Бронирование номера" as BookRoom
+usecase "Отмена бронирования" as CancelBooking
+usecase "Добавление нового номера" as AddRoom
+usecase "Удаление номера" as DeleteRoom
+
+Guest -- ViewRooms
+Guest -- BookRoom
+Guest -- CancelBooking
+
+Admin -- AddRoom
+Admin -- DeleteRoom
+@enduml
